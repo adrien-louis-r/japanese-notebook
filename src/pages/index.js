@@ -1,28 +1,38 @@
 import React from "react";
 import { Link } from "gatsby";
+import { graphql } from "gatsby";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 
-const IndexPage = () => (
+const IndexPage = ({ data }) => (
   <Layout>
     <SEO title="Hello" keywords={[`japanese`, `beginner`, `notebook`]} />
     <h1>Welcome</h1>
     <ul>
-      <li>
-        <Link to="/nouns">Nouns</Link>
-      </li>
-      <li>
-        <Link to="/adjectives">い and な adjectives</Link>
-      </li>
-      <li>
-        <Link to="/adjective-negation">Adjective negation</Link>
-      </li>
-      <li>
-        <Link to="/adjective-past">Adjective past</Link>
-      </li>
+      {data.allMarkdownRemark.edges.map(({ node }) => (
+        <li key={node.id}>
+          <Link to={node.frontmatter.path}>{node.frontmatter.title}</Link>
+        </li>
+      ))}
     </ul>
   </Layout>
 );
 
 export default IndexPage;
+
+export const pageQuery = graphql`
+  query {
+    allMarkdownRemark(sort: { fields: frontmatter___date, order: ASC }) {
+      edges {
+        node {
+          id
+          frontmatter {
+            title
+            path
+          }
+        }
+      }
+    }
+  }
+`;

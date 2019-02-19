@@ -1,6 +1,6 @@
 ---
 path: "/adjective-past"
-date: "2019-02-18"
+date: "2019-01-04"
 title: "Adjective past and past negation"
 ---
 
@@ -12,8 +12,8 @@ title: "Adjective past and past negation"
 
 - To conjugate な-adjectives to the past tense, it is the same rule as for the nouns, because you can only negate な-adjectives with です and not with a noun.
 
-> 静かです ->　静かでした  
-> 静かです ->　静かだった
+> 静かです　 → 　静かでした  
+> 静かです　 → 　静かだった
 
 - Negative past tense for い-adjectives, replace い with くない then replace い again for かった. So the い become くなかった.
 
@@ -23,7 +23,7 @@ title: "Adjective past and past negation"
 
 - Negative past tense for な-adjectives, replace な with じゃない then replace い again for かった. So the な become じゃなかった.
 
-> 静かです ->　静かじゃないです　 → 　静かじゃなかったです。
+> 静かです　 → 　静かじゃないです　 → 　静かじゃなかったです。
 
 ---
 

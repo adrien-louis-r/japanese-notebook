@@ -1,10 +1,10 @@
 ---
 path: "/adjectives"
-date: "2019-02-18"
+date: "2019-01-02"
 title: "Adjectives"
 ---
 
-Two types of adjectives, い and な adjectives.
+There is two types of adjectives, い and な adjectives.
 
 - い-adjectives always end with a い before the noun it is modifying.
 

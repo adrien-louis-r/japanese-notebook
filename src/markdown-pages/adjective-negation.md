@@ -1,6 +1,6 @@
 ---
 path: "/adjective-negation"
-date: "2019-02-18"
+date: "2019-01-03"
 title: "Adjective negation"
 ---
 
