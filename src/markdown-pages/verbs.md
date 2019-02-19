@@ -20,12 +20,16 @@ There is two types of verbs:
 
 The を particule is used to indicate the subject of a sentence.
 
+The の particule transform the verb into a noun, to sing -> singing.
+
 ---
 
 Examples
 
 - 寿司を食べる。
 - テレビを見る。
+- 歌うのは楽しい。
+- 踊るのは楽しくない。
 
 ---
 
@@ -47,3 +51,5 @@ Vocabs
 - 寿司（すし）
 - 見る（みる）
 - 来る（くる）
+- 歌う（うたう）
+- 踊る（おどる）
