@@ -6,7 +6,7 @@ title: "Particules at / in / with に で と"
 
 ### に
 
-Pour indiquer le moment de l'action <time> に <verb>
+To indicate when the action takes place \<time\> に \<verb\>
 
 > 七時に起きます。
 
@@ -15,7 +15,7 @@ No に for today / tomorrow / etc.
 > 今日映画を見ます。
 > 今日は映画を見ます。
 
-Pour indiquer où se passe l'action に + <where>
+To indicate where the action takes place \<place\> に \<verb\>
 
 > 映画に行きます。  
 > 月曜日に美術館に行きます。  
@@ -63,8 +63,8 @@ Vocabs
 - 日曜日（にちようび）
 - 週末（しゅうまつ）
 
-<time> o'clock
-<time> 時
+\<time\> o'clock  
+\<time\> 時
 
 - 一時（いちじ）
 - ニ時（にじ）
